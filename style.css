@@ -1,0 +1,25 @@
+body{
+    background-size: cover;
+
+}
+#camara{
+    border:2px dashed white;
+    width:400px;
+    height: 350px;
+}
+h3{
+    font-size:30px !important;
+    font-family: 'Cottontail', sans-serif !important;
+    color: rgb(167, 30, 222) !important;
+                                                
+}
+label{
+    font-size: 35px;
+    color: rgb(102, 206, 238);
+    font-family: 'Wacthout', sans-serif;
+                                                
+}
+button{
+    font-family: 'Almond Nougat', sans-serif !important;
+    font-size: 20px !important;
+}

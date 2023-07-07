@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+   <title>Aplicación de filtro en tiempo real usando IA (redes neuronales)
+   </title>
+   <meta rel="viewport" content="width=device-width initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="style.css"> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+   <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+   <link href="https://fonts.cdnfonts.com/css/cottontail" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/wacthout" rel="stylesheet">
+   <link href="https://fonts.cdnfonts.com/css/almond-nougat" rel="stylesheet">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+                
+</head>
+<body background="filtro.jpg">
+<center>
+    <h3 class="btn btn-warning">Filtro en tiempo real</h3>
+    <br><br>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <label>Cámara</label>
+      <div id="camara"></div>
+        <br><br>
+        <button onclick="" class="btn btn-primary">Toma una foto</button>
+    </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <button id="cabeza" onclick="boton1()">
+        <img src="cabeza.png" width="80px">
+      </button>
+      <button id="ojos" onclick="boton2()">
+        <img src="ojos.png" width="80px">
+      </button>
+      <button id="moño" onclick="boton5()">
+        <img src="moñorojo.png" width="80px">
+      </button>
+      <button id="moñorosa" onclick="boton4()">
+        <img src="moñorosa.png" width="80px">
+      </button>
+      <button id="corona" onclick="boton3()">
+        <img src="corona.png" width="80px">
+      </button>
+    </div>
+</center>
+<script src="main.js"></script>
+</body>
